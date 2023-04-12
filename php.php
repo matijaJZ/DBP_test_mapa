@@ -1,10 +1,10 @@
 <?php
 
 //podatci za konekciju o bazi
-$dbhost = "bazaprvatestna.cr8t1xgjhw4n.eu-north-1.rds.amazonaws.com";
+$dbhost = "database2.cr8t1xgjhw4n.eu-north-1.rds.amazonaws.com";
 $dbuser = "admin";
-$dbpass = "bazaprva";
-$dbname = "Testna_baza";
+$dbpass = "bazadruga";
+$dbname = "baza_druga";
 
 //konekcija na bazu
 if(! $con = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname)) 
